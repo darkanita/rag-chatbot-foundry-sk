@@ -59,7 +59,7 @@ References:
 ```bash
 # Create and activate environment
 uv venv
-source .venv/bin/activate   # or .venv\Scripts\Activate.ps1 on Windows
+source .venv/Scripts/activate   # or .venv\Scripts\Activate.ps1 on Windows
 
 # Install dependencies from pyproject.toml
 uv pip install -e .
